@@ -5,6 +5,7 @@ A robust face detection web application built with Streamlit, featuring multiple
 ![Face Detection](https://img.shields.io/badge/Face-Detection-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5-blue)
+Live Demo App: https://face-recognition-app-4kjtmizzummmmyzyhzmjpg.streamlit.app/
 
 ## ✨ Features
 
