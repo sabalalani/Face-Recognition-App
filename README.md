@@ -8,7 +8,7 @@ A real-time person detection web application built with Streamlit and OpenCV, fe
 
 ## ✨ Features
 
-- **Multiple Detection Methods**: Choose between YOLOv3-tiny and Haar Cascade
+- **Detection Method**: DNN Model
 - **CPU Optimized**: Specifically designed for cloud deployment without GPUs
 - **Real-time Processing**: Fast detection with configurable parameters
 - **User-Friendly Interface**: Intuitive Streamlit web interface
@@ -92,7 +92,7 @@ Supported formats: JPG, JPEG, PNG
 Optimal size: 500KB - 2MB
 
 2. Configure Settings
-Detection Method: Choose YOLOv3-tiny or Haar Cascade
+Detection Method: DNN Model
 
 Confidence Threshold: Adjust detection sensitivity (0.1-0.9)
 
@@ -116,7 +116,7 @@ JPG format typically processes faster than PNG
 
 # 🔧 Technical Details
 Models Used
-YOLOv3-tiny
+DNN
 
 Weights: 33.7MB
 
@@ -126,13 +126,7 @@ Input size: 320x320 (optimized for CPU)
 
 Download: Automatic on first run
 
-Haar Cascade
 
-Model: OpenCV's haarcascade_fullbody.xml
-
-Input: Grayscale images
-
-Speed: Very fast, less accurate
 
 
 # 🌐 API Reference
@@ -160,7 +154,6 @@ Slow Processing
 
 Reduce image size in settings
 
-Use Haar Cascade method
 
 Upload smaller image files
 
@@ -230,7 +223,7 @@ COCO dataset for training data
 v1.0.0 (2024-01-01)
 Initial release
 
-YOLOv3-tiny and Haar Cascade support
+DNN model
 
 Streamlit web interface
 
