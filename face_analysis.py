@@ -35,7 +35,7 @@ class AccurateFaceDetector:
             try:
                 # Use local model files that we'll package or use OpenCV's built-in
                 proto_path = "deploy.prototxt"
-                model_path = "res10_300x300_ssd_iter_140000.caffemodel"
+                model_path = "res10_300x300_ssd_iter_140000_fp16.caffemodel"
 
                 # For Streamlit Cloud, we need to handle model files differently
                 net = cv2.dnn.readNetFromCaffe(proto_path, model_path)
